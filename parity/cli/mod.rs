@@ -294,7 +294,11 @@ usage! {
 
 			ARG arg_chain: (String) = "foundation", or |c: &Config| c.parity.as_ref()?.chain.clone(),
 			"--chain=[CHAIN]",
+<<<<<<< HEAD
 			"Specify the blockchain type. CHAIN may be either a JSON chain specification file or olympic, frontier, homestead, mainnet, morden, ropsten, classic, expanse, musicoin, ellaism, easthub, testnet, kovan or dev.",
+=======
+			"Specify the blockchain type. CHAIN may be either a JSON chain specification file or olympic, frontier, homestead, mainnet, morden, ropsten, classic, galilei, expanse, musicoin, ellaism, testnet, kovan or dev.",
+>>>>>>> Add Galilei -Callisto testnet-
 
 			ARG arg_keys_path: (String) = "$BASE/keys", or |c: &Config| c.parity.as_ref()?.keys_path.clone(),
 			"--keys-path=[PATH]",
